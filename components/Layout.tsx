@@ -6,7 +6,9 @@ function Layout({ children }) {
     <>
       <div className="">
         <Header />
-        <div className="font-sans pt-16 p-2 max-w-screen-sm m-auto">{children}</div>
+        <div className="font-sans pt-16 p-2 max-w-screen-sm m-auto">
+          {children}
+        </div>
         <Footer />
       </div>
     </>

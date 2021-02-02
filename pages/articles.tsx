@@ -31,11 +31,16 @@ export default function ArticlesPage({ allPostsData }) {
                 <div className="flex">
                   <div className="w-96 pr-2">
                     <a className="text-sm text-gray-500">{date}</a>
-                    <h3 className="font-semibold text-sm sm:text-base">{title}</h3>
+                    <h3 className="font-semibold text-sm sm:text-base">
+                      {title}
+                    </h3>
                     <p className="hidden sm:flex text-xs">{description}</p>
                   </div>
                   <div className="ml-auto">
-                    <img className="object-cover h-16 w-40 sm:h-28 sm:w-48" src={img}/>
+                    <img
+                      className="object-cover h-16 w-40 sm:h-28 sm:w-48"
+                      src={img}
+                    />
                   </div>
                 </div>
               </Link>
