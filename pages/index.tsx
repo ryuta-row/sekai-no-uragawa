@@ -7,6 +7,12 @@ export default function Home() {
       <Head>
         <title>世界の裏側</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sinzitu_2" />
+        <meta property="og:url" content="/" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
       </Head>
       <main className="mt-20 py-56">
         <img

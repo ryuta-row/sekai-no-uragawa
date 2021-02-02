@@ -9,8 +9,8 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="世界の裏側" />
-        <meta property="og:url" content={`https://sekai-no-uragawa-3natltbaa.vercel.app/posts/${postData.pageTitle}`} />
+        <meta name="twitter:site" content="@sinzitu_2" />
+        <meta property="og:url" content={`/posts/${postData.pageTitle}`} />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
         <meta property="og:image" content={postData.img} />
