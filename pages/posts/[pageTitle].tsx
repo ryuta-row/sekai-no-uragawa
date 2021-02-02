@@ -8,6 +8,12 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <meta name="twitter:card" content="sammary_large_image" />
+        <meta name="twitter:site" content="世界の裏側" />
+        <meta property="og:url" content={`https://sekai-no-uragawa.ryuta-row.vercel.app//posts/${postData.pageTitle}`} />
+        <meta property="og:title" content={postData.title} />
+        <meta property="og:description" content={postData.description} />
+        <meta property="og:image" content={postData.img} />
       </Head>
       <section>
         <div className="">
@@ -26,7 +32,7 @@ export default function Post({ postData }) {
       {/* ドメインの取得後urlを設定 */}
       <ShareButton
         text={postData.title}
-        url={`xxx/posts/${postData.pageTitle}`}
+        url={`https://sekai-no-uragawa.ryuta-row.vercel.app//posts/${postData.pageTitle}`}
       />
     </Layout>
   );
