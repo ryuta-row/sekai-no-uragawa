@@ -17,9 +17,11 @@ export default function ArticlesPage({ allPostsData }) {
     <Layout>
       <Head>
         <title>生活</title>
+        <link rel="icon" href="https://cdn.image.st-hatena.com/image/square/fe62bf86c36e650a32cdd83b4988d000d0fbb6d9/backend=imagemagick;height=128;version=1;width=128/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fblog_custom_icon%2F154373653%2F1555711896698606"/>
         <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <>
+        <Link href="/"><p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">TOPに戻る</p></Link>
         <h1 className="pl-2 border-b m-1 border-gray-300">カテゴリ：生活</h1>
         <div>
         {allPostsData
