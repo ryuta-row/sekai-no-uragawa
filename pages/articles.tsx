@@ -17,6 +17,7 @@ export default function ArticlesPage({ allPostsData }) {
     <Layout>
       <Head>
         <title>記事一覧</title>
+        <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <>
         <h1 className="pl-2 border-b m-1 border-gray-300">記事一覧</h1>

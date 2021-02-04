@@ -17,6 +17,8 @@ export default function Home() {
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@sinzitu_2" />
+      
+      <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
       <main className="">
         <div className="text-center p-20 border border-blue-300 m-auto
