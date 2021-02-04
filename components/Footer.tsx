@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-gray-200 p-8 text-center">
+    <footer className="bg-gray-700 p-8 text-center text-gray-400">
       <p className="text-sm">©️世界の裏側 2021 Inc,</p>
       <Link href="/privacy-policy">
         <a className="text-sm hover:text-gray-500 corsor-pointer">プライバシーポリシー</a></Link>

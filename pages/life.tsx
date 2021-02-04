@@ -24,29 +24,29 @@ export default function ArticlesPage({ allPostsData }) {
         {allPostsData
         .filter(filterData => filterData.category === "生活")
         .map(({ pageTitle, title, date, img, description }) => (
-            <section
-              className="border border-gray-400 rounded-md mb-1 p-2
-            hover:border-gray-300 cursor-pointer"
-              key={pageTitle}
-            >
-              <Link href={`/articles/${pageTitle}`}>
-                <div className="flex">
-                  <div className="w-96 pr-2">
-                    <a className="text-sm text-gray-500">{date}</a>
-                    <h3 className="font-semibold text-sm sm:text-base">
-                      {title}
-                    </h3>
-                    <p className="hidden sm:flex text-xs">{description}</p>
-                  </div>
-                  <div className="ml-auto">
-                    <img
-                      className="object-cover h-16 w-40 sm:h-28 sm:w-48"
-                      src={img}
-                    />
-                  </div>
-                </div>
-              </Link>
-            </section>
+          <section
+          className="border border-gray-400 rounded-md mb-1 pl-3 pr-1 py-1
+        hover:border-gray-300 cursor-pointer"
+          key={pageTitle}
+        >
+          <Link href={`/articles/${pageTitle}`}>
+            <div className="flex">
+              <div className="w-80 pr-2">
+                <a className="text-sm text-gray-500">{date}</a>
+                <h3 className="font-semibold text-base sm:text-base">
+                  {title}
+                </h3>
+                <p className="hidden sm:flex text-xs">{description}</p>
+              </div>
+              <div className="ml-auto">
+                <img
+                  className="rounded-md object-cover h-20 w-32 sm:h-28 sm:w-48"
+                  src={img}
+                />
+              </div>
+            </div>
+          </Link>
+        </section>
         ))}
         </div>
       </>

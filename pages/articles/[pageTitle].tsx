@@ -43,7 +43,7 @@ export default function Post({ postData }) {
         url={`https://sekai-no-uragawa.vercel.app/articles/${postData.pageTitle}`}
       />
       <Link href="/articles">
-        <div　className="p-3 cursor-pointer  hover:text-gray-500">
+        <div　className="p-3 cursor-pointer hover:text-gray-500">
         ⬅︎記事一覧
         </div>
       </Link>

@@ -1,5 +1,5 @@
 ---
-title: "シンガポールのバイリンガル教育"
+title: "シンガポールの語学教育"
 date: "2020-09-10"
 img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20200907/20200907165044.jpg"
 description: "日本人の大半が挫折している英語。シンガポールでは幼少期からバイリンガル教育を行なっており、その取り組みに日本とは根本的に大きな違いがある。"

@@ -2,7 +2,7 @@
 title: "SNS の承認欲求と攻撃衝動"
 date: "2020-09-06"
 img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20200906/20200906122451.jpg"
-description: "SNS は大半が自分の意見やプライベートをシェアし、承認欲求を満たすための集いの場となっている。ビジネスでも使われるSNS だが、誹謗中傷による自殺者などの問題は多い。"
+description: "SNSはビジネスで使われることも多いが、大半が自分の意見やプライベートをシェアし、承認欲求を満たすための場所となっている。"
 category: "教育"
 ---
 

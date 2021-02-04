@@ -4,9 +4,9 @@ import Footer from "components/Footer";
 function Layout({ children }) {
   return (
     <>
-      <div className="">
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <div className="font-sans pt-16 p-2 max-w-screen-sm m-auto">
+        <div className="font-sans pt-20 p-2 max-w-screen-sm m-auto">
           {children}
         </div>
         <Footer />
