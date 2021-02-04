@@ -15,6 +15,8 @@ export default function Post({ postData }) {
         <meta property="og:description" content={postData.description} />
         <meta property="og:image" content={postData.img} />
 
+        <meta property="fb:app_id" content="1992296280910018" />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@sinzitu_2" />
       </Head>
