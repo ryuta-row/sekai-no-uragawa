@@ -2,6 +2,7 @@ import Layout from "components/Layout";
 import { ShareButton } from "components/ShareBotton";
 import { getAllPostIds, getPostData } from "lib/posts";
 import Head from "next/head";
+import Link from 'next/link';
 
 export default function Post({ postData }) {
   return (
@@ -10,11 +11,14 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@sinzitu_2" />
-        <meta property="og:url" content={`/posts/${postData.pageTitle}`} />
+        <meta property="og:url" content={`/articles/${postData.pageTitle}`} />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
         <meta property="og:image" content={postData.img} />
       </Head>
+      <div className="text-gray-500 p-3 text-sm">
+        {`カテゴリ：${postData.category}`}
+      </div>
       <section>
         <div className="">
           <h1 className="text-lg pt-2 px-2 font-semibold border-b">
@@ -32,8 +36,13 @@ export default function Post({ postData }) {
       {/* ドメインの取得後urlを設定 */}
       <ShareButton
         text={postData.title}
-        url={`https://sekai-no-uragawa.ryuta-row.vercel.app//posts/${postData.pageTitle}`}
+        url={`/articles/${postData.pageTitle}`}
       />
+      <Link href="/articles">
+        <div　className="p-3 cursor-pointer  hover:text-gray-500">
+        ⬅︎記事一覧
+        </div>
+      </Link>
     </Layout>
   );
 }

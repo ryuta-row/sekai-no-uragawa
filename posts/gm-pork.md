@@ -1,8 +1,9 @@
 ---
 title: "遺伝子組み換え豚"
-date: "2021-01-12"
+date: "2019-04-23"
 img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20190420/20190420105122.jpg"
 description: "2018 年韓国の研究チームが遺伝子組み換え豚によって、1 頭の豚から今まで以上に食肉をとることができるようになったと発表した。"
+category: "生活"
 ---
 
 <h3><font size="4"><b>筋肉の肥大化した豚</b></font></h3>

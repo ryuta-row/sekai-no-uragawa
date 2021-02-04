@@ -16,12 +16,14 @@ export default function ArticlesPage({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>記事一覧</title>
+        <title>生活</title>
       </Head>
       <>
-        <h1 className="pl-2 border-b m-1 border-gray-300">記事一覧</h1>
+        <h1 className="pl-2 border-b m-1 border-gray-300">カテゴリ：生活</h1>
         <div>
-          {allPostsData.map(({ pageTitle, title, date, img, description }) => (
+        {allPostsData
+        .filter(filterData => filterData.category === "生活")
+        .map(({ pageTitle, title, date, img, description }) => (
             <section
               className="border border-gray-400 rounded-md mb-1 p-2
             hover:border-gray-300 cursor-pointer"
@@ -45,7 +47,7 @@ export default function ArticlesPage({ allPostsData }) {
                 </div>
               </Link>
             </section>
-          ))}
+        ))}
         </div>
       </>
     </Layout>

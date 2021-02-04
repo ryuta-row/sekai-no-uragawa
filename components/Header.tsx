@@ -24,20 +24,26 @@ function Header() {
                 </a>
               </Link>
               <button onClick={onClickShowMenu}>
-                <img
-                  alt="MENU"
-                  src="https://chetc-od.com.ua/templates/chets/img/button-menu-icon.png"
-                  className="sm:hidden border p-1 m-1 cursor-pointer"
-                  width="48"
-                  height="40"
-                />
+                {showMenu? (
+                <div　
+                  className="sm:hidden border px-3 pb-1 py-0 m-1 cursor-pointer
+                            text-white text-4xl">
+                  ×
+                </div>
+                ) : (
+                <div　
+                  className="sm:hidden border px-3 pb-1 py-0 m-1 cursor-pointer
+                  text-white text-4xl">
+                  =
+                </div>)
+                }
               </button>
             </div>
           </nav>
           <div className="p-4 flex text-white hidden sm:flex px-5">
-            <a className="px-2 cursor-pointer hover:text-gray-300">生活</a>
-            <a className="px-2 cursor-pointer hover:text-gray-300">経済</a>
-            <a className="px-2 cursor-pointer hover:text-gray-300">雑学</a>
+            <Link href="/life"><a className="px-2 cursor-pointer hover:text-gray-300">生活</a></Link>
+            <Link href="/economy"><a className="px-2 cursor-pointer hover:text-gray-300">経済</a></Link>
+            <Link href="/education"><a className="px-2 cursor-pointer hover:text-gray-300">教育</a></Link>
           </div>
         </div>
         <div>
@@ -48,9 +54,18 @@ function Header() {
                                 "
             >
               <h3 className="p-1">カテゴリ</h3>
-              <p className="p-1 border-b border-gray-500 bg-gray-700">生活</p>
-              <p className="p-1 border-b border-gray-500 bg-gray-700">経済</p>
-              <p className="p-1 bg-gray-700">雑学</p>
+              <Link href="/life">
+                <p className="p-1 border-b border-gray-500 bg-gray-700
+                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer">生活</p>
+              </Link>
+              <Link href="/economy">
+                <p className="p-1 border-b border-gray-500 bg-gray-700
+                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer">経済</p>
+              </Link>
+              <Link href="/education">
+                <p className="p-1 bg-gray-700 hover:text-gray-300
+                              hover:bg-gray-500 cursor-pointer">教育</p>
+              </Link>
             </div>
           )}
         </div>
