@@ -6,6 +6,14 @@ export default function Home() {
     <Layout>
     <Head>
       <title>世界の裏側</title>
+      <meta property="og:type" content="ページの種類"/>
+      <meta property="og:url" content="https://sekai-no-uragawa.vercel.app/"/>
+      <meta property="og:image" content=""/>
+      <meta property="og:title" content="世界の裏側"/>
+      <meta property="og:description" content="世界の裏側へようこそ。ここでは、知るきっかけを提供することを目的とし運営しております。"/>
+      <meta property="og:locale" content="ja_JP"/>
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@sinzitu_2" />
     </Head>
       <main className="">
         <div className="text-center p-20 border border-blue-300 m-auto

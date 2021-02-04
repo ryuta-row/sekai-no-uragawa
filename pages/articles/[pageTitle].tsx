@@ -36,7 +36,7 @@ export default function Post({ postData }) {
       {/* ドメインの取得後urlを設定 */}
       <ShareButton
         text={postData.title}
-        url={`/articles/${postData.pageTitle}`}
+        url={`https://sekai-no-uragawa.vercel.app/articles/${postData.pageTitle}`}
       />
       <Link href="/articles">
         <div　className="p-3 cursor-pointer  hover:text-gray-500">
