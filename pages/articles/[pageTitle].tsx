@@ -9,12 +9,14 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@sinzitu_2" />
+        <meta property="og:type" content="article"/>
         <meta property="og:url" content={`/articles/${postData.pageTitle}`} />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
         <meta property="og:image" content={postData.img} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sinzitu_2" />
       </Head>
       <div className="text-gray-500 p-3 text-sm">
         {`カテゴリ：${postData.category}`}
