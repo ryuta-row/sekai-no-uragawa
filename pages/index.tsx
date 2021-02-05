@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
     <Head>
       <title>世界の裏側</title>
-      <link rel="icon" href="https://cdn.image.st-hatena.com/image/square/fe62bf86c36e650a32cdd83b4988d000d0fbb6d9/backend=imagemagick;height=128;version=1;width=128/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fblog_custom_icon%2F154373653%2F1555711896698606"/>
+      <link rel="icon" href="icon.jpg"/>
 
       <meta property="og:type" content="website"/>
       <meta property="og:url" content="https://sekai-no-uragawa.vercel.app/"/>
@@ -24,24 +24,25 @@ export default function Home() {
       <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
       <main className="">
-        <div className="text-center mt-4 p-10 border border-blue-300 m-auto
-                        rounded-full w-80 h-80 mb-5"
+        <div className="text-center mt-4 p-7 border border-blue-300 m-auto
+                        rounded-full w-11/12 h-80 mb-5"
         >
         <img
-          src="https://cdn.image.st-hatena.com/image/square/fe62bf86c36e650a32cdd83b4988d000d0fbb6d9/backend=imagemagick;height=128;version=1;width=128/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fblog_custom_icon%2F154373653%2F1555711896698606"
+          src="icon.jpg"
           alt=""
           className="w-24 h-24 m-auto p-4"
         />
-          <h1 className="p-2">世界の裏側へようこそ。</h1>
-          <p>ここでは、知るきっかけを提供することを目的とし運営しております。</p>
+          <h1 className="text-lg">世界の裏側へようこそ</h1>
+          <br/>
+          <p className="">ここでは、知るきっかけを提供することを目的とし運営しております。</p>
         </div>
         <div className="">
-          <div className="m-auto pt-24 mb-5 text-center border border-gray-400 w-80 h-80 rounded-full">
+          <div className="m-auto pt-24 mb-5 text-center border border-gray-400 w-11/12 h-80 rounded-full">
             <p>カテゴリ</p>
             <div className="flex">
-              <Link href="/life"><div className="m-auto pt-8 text-2xl w-24 h-24 hover:text-gray-400 cursor-pointer">生活</div></Link>
-              <Link href="/economy"><div className="m-auto pt-8 text-2xl w-24 h-24 hover:text-gray-400 cursor-pointer">経済</div></Link>
-              <Link href="/education"><div className="m-auto pt-8 text-2xl w-24 h-24 hover:text-gray-400 cursor-pointer">教育</div></Link>
+              <Link href="/life"><div className="m-auto pt-8 text-2xl w-24 w-1/3 h-24 hover:text-gray-400 cursor-pointer">生活</div></Link>
+              <Link href="/economy"><div className="m-auto pt-8 text-2xl w-1/3 h-24 hover:text-gray-400 cursor-pointer">経済</div></Link>
+              <Link href="/education"><div className="m-auto pt-8 text-2xl w-1/3 h-24 hover:text-gray-400 cursor-pointer">教育</div></Link>
             </div>
             <Link href="/articles"><div className="text-lg text-gray-500 hover:text-gray-300 border-b w-20 m-auto cursor-pointer">記事一覧</div></Link>
           </div>

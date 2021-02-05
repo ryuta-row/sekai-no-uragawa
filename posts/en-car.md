@@ -1,7 +1,7 @@
 ---
 title: "無くなるガソリン車"
 date: "2020-11-02"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20201101/20201101235957.jpg"
+img: "/top-img/en-car.jpg"
 description: "数十年後には、ガソリンで走る車は無くなるかもしれない。"
 category: "経済"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "ベトナム戦争と枯葉剤"
 date: "2019-05-01"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20190501/20190501002820.jpg"
+img: "/top-img/en-vietnam.jpg"
 description: "ベトナム戦争には枯葉剤が使用され、多くの被害がでている。そして枯葉剤は日本にも影響を与えることとなった。"
 category: "経済"
 ---

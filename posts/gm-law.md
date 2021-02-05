@@ -1,7 +1,7 @@
 ---
 title: "種子法廃止による民間企業参入"
 date: "2019-07-03"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20190703/20190703171228.jpg"
+img: "/top-img/gm-law.jpg"
 description: "2018年4月、種子法が廃止された。2016年9月に政府の規制改革推進会議で課題として提起され、2017年3月23日に「主要農作物種子法を廃止する法律」が成立し、2018年4月1日をもって廃止されることが決定した。"
 category: "生活"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "SIMフリーは諸外国では主流"
 date: "2019-04-24"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20190424/20190424065847.jpg"
+img: "/top-img/edu-sim.jpg"
 description: "大手キャリアのau、siftbank、docomoの月額料金は他国と比べ高額である。基本的に2年縛りや4年縛りなどで契約を進められ、途中解約すると違約金が発生する。そこでお勧めしたいのはSIMフリーである。"
 category: "教育"
 ---

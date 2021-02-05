@@ -1,7 +1,7 @@
 ---
 title: "中国の社会主義市場経済"
 date: "2020-06-30"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20201012/20201012100026.jpg"
+img: "/top-img/en-china.jpg"
 description: "一党独裁政権の社会主義国家である中華人民共和国だが、社会主義市場経済という、社会主義でありながら資本主義的な要素を取り入れている。"
 category: "経済"
 ---

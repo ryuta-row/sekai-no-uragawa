@@ -11,7 +11,7 @@ function Header() {
     <>
       <header className="fixed bg-gray-500 w-screen min-w-screen">
         <div className="h-17 max-w-screen-sm flex m-auto">
-          <div className="text-white p-5 text-lg">
+          <div className="text-white py-5 pl-5 text-lg">
             <Link href="/">
               <a>世界の裏側</a>
             </Link>
@@ -19,7 +19,7 @@ function Header() {
           <nav className="ml-auto">
             <div className="flex">
               <Link href="/articles">
-                <a className="text-lg p-5 text-white cursor-pointer hover:text-gray-300">
+                <a className="text-lg py-5 pr-3 text-white cursor-pointer hover:text-gray-300">
                   記事一覧
                 </a>
               </Link>

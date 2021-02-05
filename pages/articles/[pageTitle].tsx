@@ -9,7 +9,7 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
-        <link rel="icon" href="https://cdn.image.st-hatena.com/image/square/fe62bf86c36e650a32cdd83b4988d000d0fbb6d9/backend=imagemagick;height=128;version=1;width=128/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fblog_custom_icon%2F154373653%2F1555711896698606"/>
+        <link rel="icon" href="/icon.jpg"/>
 
         <meta property="og:type" content="article"/>
         <meta property="og:url" content={`/articles/${postData.pageTitle}`} />

@@ -8,7 +8,7 @@ function Footer() {
         <a className="text-sm hover:text-gray-500 corsor-pointer">プライバシーポリシー</a></Link>
       <a href="https://twitter.com/sinzitu_2">
         <img 
-          src="https://iconlab.kentakomiya.com/wp/wp-content/uploads/2019/07/icon0103.png"
+          src="/twitter-icon.png"
           alt="twitter"
           className="p-3 w-12 m-auto"
         />

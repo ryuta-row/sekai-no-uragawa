@@ -1,7 +1,7 @@
 ---
 title: "ハラール認証の理解の重要性"
 date: "2020-02-04"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20200204/20200204123559.jpg"
+img: "/top-img/edu-muslim.jpg"
 description: "現在、世界にイスラム教徒（ムスリム）は18億人以上存在し、中でもインドネシアのムスリムの人口は世界最大だ。人口2億5000万人の内、約9割がムスリムである。"
 category: "教育"
 ---

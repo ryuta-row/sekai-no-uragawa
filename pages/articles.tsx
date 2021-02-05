@@ -17,7 +17,7 @@ export default function ArticlesPage({ allPostsData }) {
     <Layout>
       <Head>
         <title>記事一覧</title>
-        <link rel="icon" href="https://cdn.image.st-hatena.com/image/square/fe62bf86c36e650a32cdd83b4988d000d0fbb6d9/backend=imagemagick;height=128;version=1;width=128/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fblog_custom_icon%2F154373653%2F1555711896698606"/>
+        <link rel="icon" href="icon.jpg"/>
         <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <>
@@ -32,7 +32,7 @@ export default function ArticlesPage({ allPostsData }) {
             >
               <Link href={`/articles/${pageTitle}`}>
                 <div className="flex">
-                  <div className="w-80 pr-2">
+                  <div className="w-full pr-2">
                     <a className="text-sm text-gray-500">{date}</a>
                     <h3 className="font-semibold text-base sm:text-base">
                       {title}

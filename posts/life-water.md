@@ -1,7 +1,7 @@
 ---
 title: "水道民営化は危険？"
 date: "2019-05-02"
-img: "https://cdn-ak.f.st-hatena.com/images/fotolife/t/tarotarosanba/20190502/20190502033827.jpg"
+img: "/top-img/life-water.jpg"
 description: "2018年12月6日、水道事業を民営化しやすくする改正水道法が可決され成立された。ボリビアでは1999年に民営化したが、水道料金が倍以上なり、200人近い死傷者を出す大規模デモが起こった。"
 category: "生活"
 ---
