@@ -1,7 +1,7 @@
 ---
 title: "GMOが与える影響"
 date: "2020-02-07"
-img: "/top-img/gm-effect.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/gm-effect.jpg"
 description: "遺伝子配列を変えることや遺伝子を組み合わせることによって新たな種を誕生させ、技術を進歩させている。だが、生物を人工的に人にとって都合の良いものに変えるのは危険だという指摘もある。
 "
 category: "生活"

@@ -1,7 +1,7 @@
 ---
 title: "無くなるガソリン車"
 date: "2020-11-02"
-img: "/top-img/en-car.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/en-car.jpg"
 description: "数十年後には、ガソリンで走る車は無くなるかもしれない。"
 category: "経済"
 ---

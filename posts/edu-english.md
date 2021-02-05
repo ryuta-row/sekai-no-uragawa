@@ -1,7 +1,7 @@
 ---
 title: "日本の英語教育"
 date: "2019-04-24"
-img: "/top-img/edu-english.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/edu-english.jpg"
 description: "学校のレベルが高いと思われがちな日本であるが、ニュージーランドやオーストラリア、ノルウェーなどの欧州諸国に比べると劣っている。"
 category: "教育"
 ---

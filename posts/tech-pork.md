@@ -1,7 +1,7 @@
 ---
 title: "豚からの臓器移植が可能に？"
 date: "2019-05-25"
-img: "/top-img/tech-pork.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/tech-pork.jpg"
 description: "十数年前から考えられていた動物から人への臓器移植。動物から人への異種移植が実現すれば、臓器の安定供給が可能になる。そして異種移植ドナーとして研究が進められているのが豚である。"
 category: "生活"
 ---

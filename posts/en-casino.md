@@ -1,7 +1,7 @@
 ---
 title: "カジノで失敗した韓国"
 date: "2020-11-03"
-img: "/top-img/en-casino.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/en-casino.jpg"
 description: "韓国では外国人観光客を呼び込む目的で作ったカジノだが、自国民が大半を占め、パチンコ大国である韓国は、元々のギャンブル依存症をさらに深刻なものとした。"
 category: "経済"
 ---

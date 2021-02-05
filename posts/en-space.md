@@ -1,7 +1,7 @@
 ---
 title: "全世界がつながる低軌道衛星"
 date: "2021-02-06"
-img: "/top-img/en-space.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/en-space.jpg"
 description: "SpaceXを筆頭に、衛星通信ビジネスで盛り上がりを見せる低軌道衛星。この低軌道衛星が世界中に打ち上げられることでどんな場所でも通信が可能になる。"
 category: "経済"
 ---

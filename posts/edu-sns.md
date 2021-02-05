@@ -1,7 +1,7 @@
 ---
 title: "SNS の承認欲求と攻撃衝動"
 date: "2020-09-06"
-img: "/top-img/edu-sns.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/edu-sns.jpg"
 description: "SNSはビジネスで使われることも多いが、大半が自分の意見やプライベートをシェアし、承認欲求を満たすための場所となっている。"
 category: "教育"
 ---

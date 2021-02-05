@@ -1,7 +1,7 @@
 ---
 title: "日本で流通する遺伝子組み換え"
 date: "2019-05-30"
-img: "/top-img/gm-foods.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/gm-foods.jpg"
 description: "遺伝子組み換えを気にして、食品を買っている人は少なからずいるだろう。もしかしたら、これを見て考えが変わるかもしれない。"
 category: "生活"
 ---

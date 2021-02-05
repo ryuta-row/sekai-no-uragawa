@@ -1,7 +1,7 @@
 ---
 title: "遺伝子組み換え豚"
 date: "2019-04-23"
-img: "/top-img/gm-pork.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/gm-pork.jpg"
 description: "2018 年韓国の研究チームが遺伝子組み換え豚によって、1 頭の豚から今まで以上に食肉をとることができるようになったと発表した。"
 category: "生活"
 ---
