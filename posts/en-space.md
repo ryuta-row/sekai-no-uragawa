@@ -36,7 +36,7 @@ category: "経済"
 <br>
 <img src="/article-imgs/en-space-a.jpg" width="100%">
 <br>
-計画されているのは、米ベンチャー企業によるIoTデイバスと低軌道衛星を接続するサービスや、楽天と資本業務提携を締結した米AST＆Scienceによる世界中をカバーできる通信を提供する「SpaceMobile」など。<br>
+計画されているのは、米ベンチャー企業によるIoTデバイスと低軌道衛星を接続するサービスや、楽天と資本業務提携を締結した米AST＆Scienceによる世界中をカバーできる通信を提供する「SpaceMobile」など。<br>
 また、Amazonは地球低軌道(LEO)に約3千機の衛星群を投入する衛星通信事業「Project Kuiper」を発表。<br>
 <br>
 SpaceXによる衛星インターネット事業「Starlink」は2020年にサービスを開始し、ユーザー数は1万人を突破。<br>

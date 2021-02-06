@@ -22,26 +22,33 @@ export default function ArticlesPage({ allPostsData }) {
       </Head>
       <>
         <Link href="/"><p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">TOPに戻る</p></Link>
-        <h1 className="pl-2 border-b m-1 border-gray-300">記事一覧</h1>
+        <h1 className="pl-2 border-b m-1 mb-2 border-gray-300">記事一覧</h1>
         <div>
           {allPostsData.map(({ pageTitle, title, date, img, description }) => (
             <section
-              className="border border-gray-400 rounded-md mb-1 pl-3 pr-1 py-1
+              className="border-b border-gray-400 mb-2 px-1
             hover:border-gray-300 cursor-pointer"
               key={pageTitle}
             >
               <Link href={`/articles/${pageTitle}`}>
-                <div className="flex">
+                <div className="flex hover:text-gray-600">
                   <div className="w-full pr-2">
-                    <a className="text-sm text-gray-500">{date}</a>
-                    <h3 className="font-semibold text-base sm:text-base">
+                    <h3 className="font-semibold text-base sm:text-lg">
                       {title}
                     </h3>
-                    <p className="hidden sm:flex text-xs">{description}</p>
+                    {/* スマホサイズの時の説明文の文字数 */}
+                    <p className="text-xs sm:hidden">
+                      {`${description.substr(0, 35)}...`}
+                    </p>
+                    {/* PCサイズの時の説明文の文字数 */}
+                    <p className="text-xs py-1 hidden sm:flex">
+                      {`${description.substr(0, 80)}...`}
+                    </p>
+                    <a className="text-xs text-gray-500">{date}</a>
                   </div>
-                  <div className="ml-auto">
+                  <div className="m-auto">
                     <img
-                      className="rounded-md object-cover h-20 w-32 sm:h-28 sm:w-48"
+                      className="mb-2 rounded-md object-cover h-20 w-40 sm:h-28 sm:w-60"
                       src={img}
                     />
                   </div>
