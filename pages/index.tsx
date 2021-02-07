@@ -1,4 +1,5 @@
 import Layout from "components/Layout";
+import { url } from "inspector";
 import { getSortedPostsData } from "lib/posts";
 import Head from "next/head";
 import Link from "next/link";
@@ -87,7 +88,6 @@ export default function Home({ allPostsData }) {
             </Link>
           </section>
           ))}
-          {/* {console.log(allPostsData(Math.floor(Math.random() * allPostsData.length)))} */}
         </div>
 
         <h1 className="pt-5 pl-2 text-lg border-b m-1 mb-2 border-gray-300">最新記事</h1>
@@ -127,8 +127,6 @@ export default function Home({ allPostsData }) {
           </section>
           ))}
         </div>
-
-
       </main>
     </Layout>
   );

@@ -1,7 +1,7 @@
 ---
 title: "遺伝子操作された蚊"
 date: "2020-10-08"
-img: "/top-img/gm-mos.jpg"
+img: "https://sekai-no-uragawa.vercel.app/top-img/gm-mos.jpg"
 description: "米フロリダ州の列島、フロリダキーズに遺伝子操作した蚊を7億5000万匹放つという実験計画が発表され、同州は 2020 年 6 月にこの計画を了承。"
 category: "生活"
 ---
