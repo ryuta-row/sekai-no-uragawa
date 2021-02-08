@@ -5,7 +5,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Link from 'next/link';
 
-export default function Post({ postData }: { postData: string}) {
+export default function Post({ postData }){
   return (
     <Layout>
       <Head>
