@@ -22,7 +22,7 @@ export default function ArticlesPage({ allPostsData }) {
       </Head>
       <>
         <Link href="/"><p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">TOPに戻る</p></Link>
-        <h1 className="pl-2 border-b m-1 mb-2 border-gray-300">カテゴリ：生活</h1>
+        <h1 className="bg-pink-400 p-1 text-center rounded-full text-white mb-2">カテゴリ：生活</h1>
         <div>
         {allPostsData
         .filter(filterData => filterData.category === "生活")

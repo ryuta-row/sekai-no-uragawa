@@ -1,10 +1,11 @@
 import Layout from "components/Layout";
 import { ShareButton } from "components/ShareBotton";
 import { getAllPostIds, getPostData } from "lib/posts";
+import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Link from 'next/link';
 
-export default function Post({ postData }) {
+export default function Post({ postData }: { postData: string}) {
   return (
     <Layout>
       <Head>
@@ -36,7 +37,7 @@ export default function Post({ postData }) {
           <p className="text-sm text-right pr-2">{postData.date}</p>
         </div>
         <img className="px-2 w-full" alt="top_pic" src={postData.img} />
-        <p
+        <div
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
           className="pt-3 px-2"
         />
@@ -56,7 +57,7 @@ export default function Post({ postData }) {
   );
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllPostIds();
   return {
     paths,
@@ -64,7 +65,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const postData = await getPostData(params.pageTitle);
   return {
     props: {
