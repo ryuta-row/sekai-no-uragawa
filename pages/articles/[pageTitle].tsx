@@ -35,8 +35,8 @@ export default function Post({ postData }) {
           </h1>
           <p className="text-sm text-right pr-2">{postData.date}</p>
         </div>
-        <img className="px-2" alt="top_pic" src={postData.img} />
-        <div
+        <img className="px-2 w-full" alt="top_pic" src={postData.img} />
+        <p
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
           className="pt-3 px-2"
         />
