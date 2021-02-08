@@ -208,7 +208,7 @@ export default function Home({ allPostsData }) {
         <div className="">
           <div className="">
             {allPostsData
-            .slice(4, 5)
+            .slice(9, 10)
             .map(({ pageTitle, title, date, img, description }) => (
               <section
               className="border rounded-md p-1 border-gray-400
