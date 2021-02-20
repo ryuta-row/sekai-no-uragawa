@@ -24,26 +24,40 @@ function Header() {
                 </a>
               </Link>
               <button onClick={onClickShowMenu}>
-                {showMenu? (
-                <div　
-                  className="sm:hidden border px-4 pb-2 py-0 m-1 cursor-pointer
-                            text-white text-5xl">
-                  ×
-                </div>
+                {showMenu ? (
+                  <div
+                    className="sm:hidden border px-4 pb-2 py-0 m-1 cursor-pointer
+                            text-white text-5xl"
+                  >
+                    ×
+                  </div>
                 ) : (
-                <div　
-                  className="sm:hidden border px-4 pb-2 py-0 m-1 cursor-pointer
-                  text-white text-5xl">
-                  =
-                </div>)
-                }
+                  <div
+                    className="sm:hidden border px-4 pb-2 py-0 m-1 cursor-pointer
+                  text-white text-5xl"
+                  >
+                    =
+                  </div>
+                )}
               </button>
             </div>
           </nav>
           <div className="p-4 flex text-white hidden sm:flex px-5">
-            <Link href="/life"><a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">生活</a></Link>
-            <Link href="/economy"><a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">経済</a></Link>
-            <Link href="/education"><a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">教育</a></Link>
+            <Link href="/life">
+              <a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">
+                生活
+              </a>
+            </Link>
+            <Link href="/economy">
+              <a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">
+                経済
+              </a>
+            </Link>
+            <Link href="/education">
+              <a className="px-2 py-1 text-lg cursor-pointer hover:text-gray-300">
+                教育
+              </a>
+            </Link>
           </div>
         </div>
         <div>
@@ -55,16 +69,28 @@ function Header() {
             >
               <h3 className="p-1 text-lg">カテゴリ</h3>
               <Link href="/life">
-                <p className=" text-lg p-1 border-b border-gray-500 bg-gray-700
-                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer">生活</p>
+                <p
+                  className=" text-lg p-1 border-b border-gray-500 bg-gray-700
+                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer"
+                >
+                  生活
+                </p>
               </Link>
               <Link href="/economy">
-                <p className="text-lg p-1 border-b border-gray-500 bg-gray-700
-                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer">経済</p>
+                <p
+                  className="text-lg p-1 border-b border-gray-500 bg-gray-700
+                              hover:text-gray-300 hover:bg-gray-500 cursor-pointer"
+                >
+                  経済
+                </p>
               </Link>
               <Link href="/education">
-                <p className="text-lg p-1 bg-gray-700 hover:text-gray-300
-                              hover:bg-gray-500 cursor-pointer">教育</p>
+                <p
+                  className="text-lg p-1 bg-gray-700 hover:text-gray-300
+                              hover:bg-gray-500 cursor-pointer"
+                >
+                  教育
+                </p>
               </Link>
             </div>
           )}

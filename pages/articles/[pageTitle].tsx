@@ -3,16 +3,16 @@ import { ShareButton } from "components/ShareBotton";
 import { getAllPostIds, getPostData } from "lib/posts";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
-import Link from 'next/link';
+import Link from "next/link";
 
-export default function Post({ postData }){
+export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
         <title>{postData.title}</title>
-        <link rel="icon" href="/icon.jpg"/>
+        <link rel="icon" href="/icon.jpg" />
 
-        <meta property="og:type" content="article"/>
+        <meta property="og:type" content="article" />
         <meta property="og:url" content={`/articles/${postData.pageTitle}`} />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
@@ -23,8 +23,11 @@ export default function Post({ postData }){
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@sinzitu_2" />
 
-        <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-        </script>
+        <script
+          data-ad-client="ca-pub-8024956070227392"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Head>
       <div className="text-gray-500 p-3 text-sm">
         {`カテゴリ：${postData.category}`}
@@ -48,8 +51,8 @@ export default function Post({ postData }){
         url={`https://sinzitu.site/articles/${postData.pageTitle}`}
       />
       <Link href="/articles">
-        <div　className="p-3 cursor-pointer text-sm text-center text-gray-500 hover:text-gray-300">
-        記事一覧
+        <div className="p-3 cursor-pointer text-sm text-center text-gray-500 hover:text-gray-300">
+          記事一覧
         </div>
       </Link>
     </Layout>
@@ -62,7 +65,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths,
     fallback: false,
   };
-}
+};
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const postData = await getPostData(params.pageTitle);
@@ -71,4 +74,4 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       postData,
     },
   };
-}
+};

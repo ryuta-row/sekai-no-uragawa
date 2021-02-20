@@ -17,11 +17,19 @@ export default function ArticlesPage({ allPostsData }) {
     <Layout>
       <Head>
         <title>記事一覧</title>
-        <link rel="icon" href="icon.jpg"/>
-        <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <link rel="icon" href="icon.jpg" />
+        <script
+          data-ad-client="ca-pub-8024956070227392"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Head>
       <>
-        <Link href="/"><p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">TOPに戻る</p></Link>
+        <Link href="/">
+          <p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">
+            TOPに戻る
+          </p>
+        </Link>
         <h1 className="pl-2 border-b m-1 mb-2 border-gray-300">記事一覧</h1>
         <div>
           {allPostsData.map(({ pageTitle, title, date, img, description }) => (

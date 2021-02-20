@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sinzitu.site
+Token: aaedeb52eb863e14b521caef2ce2600d273153df898a0d07b4bbac9a85f97cc1

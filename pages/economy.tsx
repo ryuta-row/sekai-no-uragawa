@@ -17,47 +17,57 @@ export default function ArticlesPage({ allPostsData }) {
     <Layout>
       <Head>
         <title>経済</title>
-        <link rel="icon" href="icon.jpg"/>
-        <script data-ad-client="ca-pub-8024956070227392" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <link rel="icon" href="icon.jpg" />
+        <script
+          data-ad-client="ca-pub-8024956070227392"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Head>
       <>
-        <Link href="/"><p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">TOPに戻る</p></Link>
-        <h1 className="bg-gray-600 p-1 text-center rounded-full text-white mb-2">カテゴリ：経済</h1>
+        <Link href="/">
+          <p className="p-1 text-center text-sm text-gray-500 hover:text-gray-300 cursor-pointer">
+            TOPに戻る
+          </p>
+        </Link>
+        <h1 className="bg-gray-600 p-1 text-center rounded-full text-white mb-2">
+          カテゴリ：経済
+        </h1>
         <div>
-        {allPostsData
-        .filter(filterData => filterData.category === "経済")
-        .map(({ pageTitle, title, date, img, description }) => (
-          <section
-          className="border-b border-gray-400 mb-2 px-1
+          {allPostsData
+            .filter((filterData) => filterData.category === "経済")
+            .map(({ pageTitle, title, date, img, description }) => (
+              <section
+                className="border-b border-gray-400 mb-2 px-1
         hover:border-gray-300 cursor-pointer"
-          key={pageTitle}
-        >
-          <Link href={`/articles/${pageTitle}`}>
-            <div className="flex hover:text-gray-600">
-              <div className="w-full pr-2">
-                <h3 className="font-semibold text-base sm:text-lg">
-                  {title}
-                </h3>
-                {/* スマホサイズの時の説明文の文字数 */}
-                <p className="text-xs sm:hidden">
-                  {`${description.substr(0, 35)}...`}
-                </p>
-                {/* PCサイズの時の説明文の文字数 */}
-                <p className="text-xs py-1 hidden sm:flex">
-                  {`${description.substr(0, 80)}...`}
-                </p>
-                <a className="text-xs text-gray-500">{date}</a>
-              </div>
-              <div className="m-auto">
-                <img
-                  className="mb-2 rounded-md object-cover h-20 w-40 sm:h-28 sm:w-60"
-                  src={img}
-                />
-              </div>
-            </div>
-          </Link>
-        </section>
-        ))}
+                key={pageTitle}
+              >
+                <Link href={`/articles/${pageTitle}`}>
+                  <div className="flex hover:text-gray-600">
+                    <div className="w-full pr-2">
+                      <h3 className="font-semibold text-base sm:text-lg">
+                        {title}
+                      </h3>
+                      {/* スマホサイズの時の説明文の文字数 */}
+                      <p className="text-xs sm:hidden">
+                        {`${description.substr(0, 35)}...`}
+                      </p>
+                      {/* PCサイズの時の説明文の文字数 */}
+                      <p className="text-xs py-1 hidden sm:flex">
+                        {`${description.substr(0, 80)}...`}
+                      </p>
+                      <a className="text-xs text-gray-500">{date}</a>
+                    </div>
+                    <div className="m-auto">
+                      <img
+                        className="mb-2 rounded-md object-cover h-20 w-40 sm:h-28 sm:w-60"
+                        src={img}
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </section>
+            ))}
         </div>
       </>
     </Layout>
