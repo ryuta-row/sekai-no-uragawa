@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,6 +10,11 @@ function Header() {
 
   return (
     <>
+      <Head>
+        <script data-ad-client="ca-pub-8024956070227392"
+          async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+        </script>
+      </Head>
       <header className="fixed bg-gray-500 w-screen min-w-screen">
         <div className="h-17 max-w-screen-sm flex m-auto">
           <div className="text-white py-5 pl-5 text-lg">
